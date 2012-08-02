@@ -1,0 +1,25 @@
+FIRST ITERATION
+---------------------------------------------------------------
+8/2/2012
+
+1. PAYMENT METHOD SELECT
+- Default = unselected
+
+
+2. QUANTITY INPUT FIELD
+- Default  = disabled
+- Enabled upon payment choice selection
+- Field border = red in error state
+
+Error Messages
+- "Quantity must be in multiples of 20"
+- "Minimum order size is 20"
+
+3. TOTAL FIELD = quanitiy x price 
+- only display in absence of error messages
+- Dynamically updates upon change of payment choice
+
+
+4. ADD TO CART BUTON
+- Disabled until correct payment method & quantity input
+- Modal fired upon submit (this is in place)

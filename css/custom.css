@@ -20,6 +20,12 @@
 	height: 175px;
 }
 
+.sidebar{
+	background: #efefef;
+	height:900px;
+	
+}
+
 	.border_tn img{
 		display: block;
 		float: left;
@@ -59,3 +65,26 @@
 	.top20{
 		margin-top: 20px;
 	}
+	
+	.bottom20{
+		margin-bottom: 20px;
+	}
+	
+.largeP{
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+	
+	
+	 
+.question-mark {
+display: block;
+width: 25px;
+height: 25px;
+background: transparent url('images/help.png') no-repeat;
+/*
+position: absolute;
+top: 10px;
+left: 540px;
+*/
+}

@@ -161,7 +161,7 @@ a:hover {
 }
 [class*="span"] {
   float: left;
-  margin-left: 20px;
+/*   margin-left: 20px; */
 }
 .container,
 .navbar-fixed-top .container,
@@ -360,11 +360,12 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: 8px 0px;
   font-family: inherit;
   font-weight: bold;
   color: inherit;
   text-rendering: optimizelegibility;
+
 }
 h1 small,
 h2 small,
@@ -441,7 +442,7 @@ ol {
   list-style: decimal;
 }
 li {
-  line-height: 18px;
+  line-height: 22px;
 }
 ul.unstyled,
 ol.unstyled {
@@ -2552,6 +2553,7 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
+  
 }
 .nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #dddddd;
@@ -2572,6 +2574,8 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  background: #F6F6F6;
+  font-size: 1.5em;
 }
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
@@ -3269,7 +3273,7 @@ input[type="submit"].btn.btn-mini {
 }
 .well {
   min-height: 20px;
-  padding: 19px;
+  padding: 10px;
   margin-bottom: 20px;
   background-color: #f5f5f5;
   border: 1px solid #eee;
@@ -3359,4 +3363,16 @@ button.close {
 }
 .collapse.in {
   height: auto;
+}
+.alert {
+  background-color:#FCF8E3;
+  border:1px solid #FBEED5;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  color:#C09853;
+  margin-bottom:18px;
+  padding:8px 35px 8px 14px;
+  text-shadow:rgba(255, 255, 255, 0.496094) 0 1px 0;
 }
